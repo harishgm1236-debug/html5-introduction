@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+
+    <h1>Student Feedback Survey</h1>
+    <p>Please fill out the form below:</p>
+
+    <form>
+
+        <!-- Text Input -->
+        <label>Full Name:</label><br>
+        <input type="text" name="name"><br><br>
+
+        <!-- Email Input -->
+        <label>Email:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <!-- Dropdown -->
+        <label>Course:</label><br>
+        <select name="course">
+            <option>Computer Science</option>
+            <option>Information Technology</option>
+            <option>Electronics</option>
+            <option>Other</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <label>How satisfied are you with the course?</label><br>
+        <input type="radio" name="satisfaction"> Very Satisfied<br>
+        <input type="radio" name="satisfaction"> Satisfied<br>
+        <input type="radio" name="satisfaction"> Not Satisfied<br><br>
+
+        <!-- Checkboxes -->
+        <label>Which topics did you like? (Select multiple)</label><br>
+        <input type="checkbox"> HTML<br>
+        <input type="checkbox"> CSS<br>
+        <input type="checkbox"> JavaScript<br>
+        <input type="checkbox"> Projects<br><br>
+
+        <!-- Rating Scale -->
+        <label>Rate the course (1 to 5):</label><br>
+        <input type="radio" name="rating"> 1
+        <input type="radio" name="rating"> 2
+        <input type="radio" name="rating"> 3
+        <input type="radio" name="rating"> 4
+        <input type="radio" name="rating"> 5
+        <br><br>
+
+        <!-- Textarea -->
+        <label>Additional Feedback:</label><br>
+        <textarea rows="4" cols="40"></textarea><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit Survey">
+
+    </form>
+
+</body>
+</html>
